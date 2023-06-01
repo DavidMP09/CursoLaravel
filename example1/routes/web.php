@@ -29,3 +29,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/contacto', function () {
+    return "Bienvenidos a la pagina de contactos";
+});
